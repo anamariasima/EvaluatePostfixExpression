@@ -1,0 +1,14 @@
+SIMA ANA-MARIA 323CB	
+
+Assembly program to evaluate postfix expression.
+
+Labels:
+
+	-readcharacter: read string character by character
+	-verify_minus: verify if '-' is an operator
+	-number: string to integer
+	-push_stack: push operand to stack
+	-number_neg: string to negative number
+	-push_stackNeg: push negative number to stack
+	-plus, minus, multiply, divide: evaluate operator('+', '-', '*', '/')
+	-final: extracts expression's result and prints it
